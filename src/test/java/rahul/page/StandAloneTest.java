@@ -82,7 +82,7 @@ public class StandAloneTest {
 		String text=driver.findElement(By.cssSelector("h1[class='hero-primary']")).getText();
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("Thankyou for the order."));
-		
+		System.out.println("hello i am ram");
 		
 		
 		
